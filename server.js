@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3001;
 // parse string or array data
 app.use(express.urlencoded({ extended: true }));
 
-// parse JSON data
+// parse json data
 app.use(express.json());
 
 
